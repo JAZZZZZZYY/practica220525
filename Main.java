@@ -7,7 +7,11 @@ public class Main {
         System.out.println("Resultado de la suma de dobles: " + result2);
         int result3 = op.sumar(5, 10, 15);
         System.out.println("Resultado de la suma de tres enteros: " + result3);
+        
         int result4 = op.sumar(-5, 10);
         System.out.println("Resultado de la suma con un número negativo: " + result4);
+
+        op.imprimirNumerosimpares(5);
     }
+
 }

@@ -14,4 +14,14 @@ public class operacion {
       public int sumar(int a, int b, int c) {
           return a + b + c;
       }
+
+      public void imprimirNumerosimpares(int a) {
+          System.out.println("Números impares hasta " + a + ":");
+          for (int i = 1; i <= a; i++) {
+              if (i % 2 != 0) {
+                  System.out.println("Número impar " + i);
+              }
+          }
+          System.out.println();
+      }
 }
